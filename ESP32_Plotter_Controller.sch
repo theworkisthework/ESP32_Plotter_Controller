@@ -702,7 +702,7 @@ F 4 "C10401" H 18000 5035 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 Text Notes 15000 12575 0    79   ~ 0
-ESP32 Plotter Controller\nDesign by Mark Benson github.com/markjb/ESP32_Plotter_Controller\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
+ESP32 Plotter Controller\nDesign by Mark Benson github.com/theworkisthework/ESP32_Plotter_Controller\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
 Wire Notes Line
 	8675 760  13575 760 
 Wire Notes Line
