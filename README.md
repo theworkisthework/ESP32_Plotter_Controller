@@ -11,10 +11,3 @@ First board revision A (aka 'Diamiond Chimp')
 [Schematic]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/main/ESP32_Plotter_Controller_Schematic_RevA.pdf )
 
 ![Pinmap]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/embedded-esp32/Plotter_pinmap.png )
-
-![Render of top of board]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/embedded-esp32/RevB1_top_projection.png )
-
-
-![Render of bottom of board]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/embedded-esp32/RevB1_bottom_projection.png )
-
-
