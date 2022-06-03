@@ -784,7 +784,7 @@ F 3 "~" H 17600 6385 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 15000 12575 0    79   ~ 0
-ESP32 Plotter Controller\nDesign by Mark Benson github.com/markjb/ESP32_Plotter_Controller\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
+ESP32 Plotter Controller\nDesign by Mark Benson\ngithub.com/theworkisthework/ESP32_Plotter_Controller\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
 Text Label 6530 5300 2    50   ~ 0
 CS_AUX
 Wire Wire Line
