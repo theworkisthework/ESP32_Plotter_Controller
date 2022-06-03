@@ -8,9 +8,6 @@ Firmware https://github.com/theworkisthework/Grbl_Esp32 (This is a Fork of Grbl_
 
 First board revision A (aka 'Diamiond Chimp')
 
-[Schematic]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/main/ESP32_Plotter_Controller_Schematic_RevA.pdf )
+[Schematic]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/embedded-esp32/ESP32_Plotter_Controller_Schematic_RevB1.pdf )
 
-![Pinmap]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/main/Plotter_pinmap.png )
-
-
-
+![Pinmap]( https://github.com/theworkisthework/ESP32_Plotter_Controller/blob/embedded-esp32/Plotter_pinmap.png )
