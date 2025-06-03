@@ -5722,7 +5722,7 @@
 	)
 	(text "Stepper motor Drivers"
 		(exclude_from_sim no)
-		(at 389.89 200.914 0)
+		(at 392.43 280.035 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -5774,6 +5774,12 @@
 			(justify left bottom)
 		)
 		(uuid "fce0902c-9a95-422a-b635-8445c7e84227")
+	)
+	(junction
+		(at 441.96 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cf497c7-b4c7-44fc-a3d0-9b4f0121b557")
 	)
 	(junction
 		(at 109.855 278.13)
@@ -5920,6 +5926,12 @@
 		(uuid "7ef1f53a-6794-4b37-9024-b2110bcb9c9f")
 	)
 	(junction
+		(at 404.114 182.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8228e4a2-7e5b-4121-9f22-8bc8e0452f72")
+	)
+	(junction
 		(at 124.46 192.024)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6035,6 +6047,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 193.04) (xy 441.96 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e58bfb-15cf-44c7-b880-1e3c07a94a6b")
+	)
+	(wire
+		(pts
 			(xy 90.17 183.134) (xy 90.17 192.024)
 		)
 		(stroke
@@ -6122,6 +6144,16 @@
 			(type default)
 		)
 		(uuid "0b388f68-4913-43cb-88b6-eb99ecfa9772")
+	)
+	(wire
+		(pts
+			(xy 404.114 182.245) (xy 412.75 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b59dab7-31f8-4d82-8d10-94bda03d3a49")
 	)
 	(wire
 		(pts
@@ -6375,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 161.544) (xy 433.07 165.989)
+			(xy 435.61 240.665) (xy 435.61 245.11)
 		)
 		(stroke
 			(width 0)
@@ -6523,6 +6555,16 @@
 		)
 		(uuid "247d5db6-ea41-426a-b282-253c943bb2cf")
 	)
+	(wire
+		(pts
+			(xy 399.415 182.245) (xy 404.114 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248f99cf-3804-4639-a58b-95218dd80c53")
+	)
 	(polyline
 		(pts
 			(xy 219.71 172.339) (xy 344.805 172.339)
@@ -6532,6 +6574,16 @@
 			(type dash)
 		)
 		(uuid "252fa183-ee5a-46cf-a2a6-5682be5131e1")
+	)
+	(wire
+		(pts
+			(xy 424.18 208.28) (xy 431.8 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d080c0-2de0-4b77-8f7d-ed0b6b77cf47")
 	)
 	(wire
 		(pts
@@ -6615,6 +6667,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 214.63) (xy 405.13 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f193879-ab32-483c-97ac-90a4214b2703")
+	)
+	(wire
+		(pts
 			(xy 269.875 38.1) (xy 269.875 53.34)
 		)
 		(stroke
@@ -6685,7 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.655 176.149) (xy 426.72 176.149)
+			(xy 417.195 255.27) (xy 429.26 255.27)
 		)
 		(stroke
 			(width 0)
@@ -6712,6 +6774,16 @@
 			(type default)
 		)
 		(uuid "3543fdd4-e207-4d92-b422-f23f2958cdbe")
+	)
+	(wire
+		(pts
+			(xy 404.114 174.625) (xy 404.114 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3674318a-20d4-44a5-9eca-20c508d737cf")
 	)
 	(wire
 		(pts
@@ -6805,7 +6877,7 @@
 	)
 	(polyline
 		(pts
-			(xy 350.52 205.359) (xy 350.52 18.669)
+			(xy 349.25 282.956) (xy 349.25 18.669)
 		)
 		(stroke
 			(width 0)
@@ -6822,6 +6894,16 @@
 			(type default)
 		)
 		(uuid "44551cbf-d6da-4e1e-a94c-769f02443998")
+	)
+	(wire
+		(pts
+			(xy 394.97 203.2) (xy 405.13 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fe0e2f-9361-4ac2-92cc-a81952253108")
 	)
 	(wire
 		(pts
@@ -6952,6 +7034,16 @@
 			(type dash)
 		)
 		(uuid "4fe3d8c0-662f-4023-af3b-1eec8723af39")
+	)
+	(wire
+		(pts
+			(xy 399.415 179.705) (xy 412.75 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c58c67-6a3f-4e09-975d-2d67e50c0053")
 	)
 	(wire
 		(pts
@@ -7185,6 +7277,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 195.58) (xy 405.13 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fac5019-68da-4d83-addd-90efe7960245")
+	)
+	(wire
+		(pts
 			(xy 231.775 214.63) (xy 231.775 217.805)
 		)
 		(stroke
@@ -7195,13 +7297,23 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 165.989) (xy 426.72 176.149)
+			(xy 429.26 245.11) (xy 429.26 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "603b5367-fded-4921-adfd-a6481e0ed3cf")
+	)
+	(wire
+		(pts
+			(xy 394.97 198.12) (xy 405.13 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60995827-c390-4c59-aa81-0821c541bb53")
 	)
 	(polyline
 		(pts
@@ -7495,7 +7607,7 @@
 	)
 	(polyline
 		(pts
-			(xy 481.33 18.669) (xy 481.33 205.359)
+			(xy 480.06 18.669) (xy 480.06 282.956)
 		)
 		(stroke
 			(width 0)
@@ -7635,6 +7747,26 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 193.04) (xy 405.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f286159-4db2-4592-8de0-9b422d495bbf")
+	)
+	(wire
+		(pts
+			(xy 424.18 200.66) (xy 431.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa0e8cf-885d-47b2-8a81-61e8a0bbad5c")
+	)
+	(wire
+		(pts
 			(xy 250.19 40.64) (xy 278.13 40.64)
 		)
 		(stroke
@@ -7645,7 +7777,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.655 178.689) (xy 426.72 178.689)
+			(xy 417.195 257.81) (xy 429.26 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7915,6 +8047,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 203.2) (xy 431.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967e55bf-a86f-4e17-ab08-a5a5e14b37ce")
+	)
+	(wire
+		(pts
 			(xy 45.72 326.39) (xy 45.72 318.77)
 		)
 		(stroke
@@ -8005,6 +8147,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 180.34) (xy 441.96 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f87007-e436-4bcd-95af-3295ae3b1957")
+	)
+	(wire
+		(pts
 			(xy 298.958 99.187) (xy 325.628 99.187)
 		)
 		(stroke
@@ -8055,6 +8207,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 200.66) (xy 405.13 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8466e7-b2a5-4923-ba5e-36814bc2ed0c")
+	)
+	(wire
+		(pts
 			(xy 131.445 294.64) (xy 131.445 278.13)
 		)
 		(stroke
@@ -8085,7 +8247,7 @@
 	)
 	(polyline
 		(pts
-			(xy 481.33 205.359) (xy 350.52 205.359)
+			(xy 480.06 282.956) (xy 349.25 282.956)
 		)
 		(stroke
 			(width 0)
@@ -8112,6 +8274,16 @@
 			(type default)
 		)
 		(uuid "9f614baa-9b4d-4bbc-add5-e25499ae9d03")
+	)
+	(wire
+		(pts
+			(xy 412.75 190.5) (xy 412.75 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3109e68-a013-4114-b3b0-bf75c15ff01a")
 	)
 	(wire
 		(pts
@@ -8152,6 +8324,26 @@
 			(type default)
 		)
 		(uuid "a7c35226-055b-400d-819c-c098d4e3a50c")
+	)
+	(wire
+		(pts
+			(xy 424.18 205.74) (xy 431.8 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95e36cb-aaa7-4a0f-80da-1f5a38ee6927")
+	)
+	(wire
+		(pts
+			(xy 441.96 217.17) (xy 441.96 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa71dc3f-44cb-49fe-a3c8-171163c988ad")
 	)
 	(wire
 		(pts
@@ -8635,7 +8827,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 178.689) (xy 426.72 183.134)
+			(xy 429.26 257.81) (xy 429.26 262.255)
 		)
 		(stroke
 			(width 0)
@@ -8795,7 +8987,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 165.989) (xy 429.26 165.989)
+			(xy 435.61 245.11) (xy 431.8 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8832,6 +9024,16 @@
 			(type default)
 		)
 		(uuid "e0cc4756-88c7-41fd-83d6-a4fa34fba3a7")
+	)
+	(wire
+		(pts
+			(xy 394.97 212.09) (xy 405.13 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0eab453-9561-4842-9e67-4bfe41c9f041")
 	)
 	(wire
 		(pts
@@ -8915,7 +9117,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 165.989) (xy 419.1 165.989)
+			(xy 426.72 245.11) (xy 421.64 245.11)
 		)
 		(stroke
 			(width 0)
@@ -9125,7 +9327,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.655 173.609) (xy 436.88 173.609)
+			(xy 417.195 252.73) (xy 439.42 252.73)
 		)
 		(stroke
 			(width 0)
@@ -9155,7 +9357,17 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 158.496) (xy 419.1 165.989)
+			(xy 424.18 193.04) (xy 441.96 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a572ec-a141-4e97-82af-92e03cb79a61")
+	)
+	(wire
+		(pts
+			(xy 421.64 237.617) (xy 421.64 245.11)
 		)
 		(stroke
 			(width 0)
@@ -9203,6 +9415,16 @@
 		)
 		(uuid "fd371ad9-6be4-426a-a6df-6056d62306dd")
 	)
+	(wire
+		(pts
+			(xy 404.114 167.005) (xy 404.114 164.592)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff35c245-94d6-4a1d-a7bf-5d6bdef0b21f")
+	)
 	(label "CS_SD"
 		(at 160.655 73.025 180)
 		(effects
@@ -9213,6 +9435,16 @@
 		)
 		(uuid "060ae280-268d-4ad6-a196-a34b16159205")
 	)
+	(label "MISO"
+		(at 394.97 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a8e80ee-ac04-4fbd-908d-3a010e6721ee")
+	)
 	(label "X_Step"
 		(at 396.24 77.47 0)
 		(effects
@@ -9222,6 +9454,16 @@
 			(justify left bottom)
 		)
 		(uuid "106c31fe-efb2-4d1b-821e-800317aad4e7")
+	)
+	(label "Z_Step"
+		(at 394.97 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "148c809d-574c-4f76-9d5d-8582dd300da2")
 	)
 	(label "MOSI"
 		(at 394.97 127 0)
@@ -9252,6 +9494,16 @@
 			(justify left bottom)
 		)
 		(uuid "1aaf42eb-f6c2-4e19-8455-64600ce9c370")
+	)
+	(label "StepEn"
+		(at 394.97 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b1ef0e9-6d2d-4a76-bb29-0d3f1db43dba")
 	)
 	(label "MISO"
 		(at 250.825 216.154 0)
@@ -9403,6 +9655,16 @@
 		)
 		(uuid "3d17714d-c4f2-4cd4-bc40-97ea4bc17543")
 	)
+	(label "Z_Dir"
+		(at 394.97 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3daad5fc-48d0-46b4-baf3-7aae91ac0951")
+	)
 	(label "X_Dir"
 		(at 396.24 80.01 0)
 		(effects
@@ -9424,7 +9686,7 @@
 		(uuid "3eea13cb-3cd6-47cf-afc8-c0fe54c391a4")
 	)
 	(label "PEN_LIFT"
-		(at 436.88 173.609 180)
+		(at 439.42 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9563,6 +9825,16 @@
 		)
 		(uuid "61d2c989-b01b-40e1-8034-f3d664305394")
 	)
+	(label "Vin"
+		(at 441.96 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6448ec23-9c46-4f34-8c7d-cce2dcff3f4b")
+	)
 	(label "CS_AUX"
 		(at 160.655 80.645 180)
 		(effects
@@ -9633,6 +9905,16 @@
 		)
 		(uuid "7a0dbd27-b513-4336-84ea-b6560c309478")
 	)
+	(label "CS_Z"
+		(at 394.97 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c83b70f-ee45-4f11-b683-cd0a00b48e67")
+	)
 	(label "MISO"
 		(at 396.24 68.58 0)
 		(effects
@@ -9642,6 +9924,26 @@
 			(justify left bottom)
 		)
 		(uuid "809beeea-d34a-4a22-a04f-ff043a203611")
+	)
+	(label "Z_Limit"
+		(at 412.75 179.705 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89f8c20d-46ff-408d-94d2-020c10578ca2")
+	)
+	(label "SCK"
+		(at 394.97 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bc2db60-5521-4f40-95d7-2464d9d1f6ea")
 	)
 	(label "Y_Step"
 		(at 394.97 143.51 0)
@@ -9702,6 +10004,16 @@
 			(justify left bottom)
 		)
 		(uuid "9725f5ae-192f-45bc-a81e-4e9420abe875")
+	)
+	(label "MOSI"
+		(at 394.97 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a03dac4-48c2-42ee-98f6-224227b10cb4")
 	)
 	(label "Vin"
 		(at 45.72 162.814 270)
@@ -9894,7 +10206,7 @@
 		(uuid "f09314c6-de8f-475b-8224-ffa0d63643ed")
 	)
 	(label "Vin"
-		(at 419.1 158.496 270)
+		(at 421.64 237.617 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10020,7 +10332,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 426.72 183.134 0)
+		(at 429.26 262.255 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10028,7 +10340,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000125b47f1")
 		(property "Reference" "#NetPort024"
-			(at 426.72 183.134 0)
+			(at 429.26 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10037,7 +10349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 426.72 183.134 0)
+			(at 429.26 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 426.72 183.134 0)
+			(at 429.26 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 426.72 183.134 0)
+			(at 429.26 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10376,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 426.72 183.134 0)
+			(at 429.26 262.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,15 +11867,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 433.07 161.544 0)
+		(at 435.61 240.665 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006052b8be")
-		(property "Reference" "#PWR022"
-			(at 433.07 165.354 0)
+		(property "Reference" "#PWR023"
+			(at 435.61 244.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,7 +11884,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 433.451 157.1498 0)
+			(at 435.991 236.2708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +11892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 433.07 161.544 0)
+			(at 435.61 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +11901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 433.07 161.544 0)
+			(at 435.61 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 433.07 161.544 0)
+			(at 435.61 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,7 +11923,7 @@
 		(instances
 			(project ""
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11619,15 +11931,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Male")
-		(at 426.72 160.909 270)
+		(at 429.26 240.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006053a56b")
-		(property "Reference" "J17"
-			(at 421.005 162.814 90)
+		(property "Reference" "J18"
+			(at 423.545 241.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +11948,7 @@
 			)
 		)
 		(property "Value" "Vselect"
-			(at 423.545 159.004 90)
+			(at 426.085 238.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11645,7 +11957,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 426.72 160.909 0)
+			(at 429.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 426.72 160.909 0)
+			(at 429.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +11975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 426.72 160.909 0)
+			(at 429.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11983,7 @@
 			)
 		)
 		(property "LCSC" "C49257"
-			(at 426.72 160.909 0)
+			(at 429.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +12003,7 @@
 		(instances
 			(project ""
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "J17")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -12663,15 +12975,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Male")
-		(at 409.575 176.149 0)
+		(at 412.115 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608debb9")
-		(property "Reference" "J16"
-			(at 412.3182 169.0116 0)
+		(property "Reference" "J17"
+			(at 414.8582 248.1326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,7 +12991,7 @@
 			)
 		)
 		(property "Value" "Pen Lift"
-			(at 412.3182 171.323 0)
+			(at 414.8582 250.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +12999,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
-			(at 409.575 176.149 0)
+			(at 412.115 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,7 +13008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 409.575 176.149 0)
+			(at 412.115 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +13017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 409.575 176.149 0)
+			(at 412.115 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +13025,7 @@
 			)
 		)
 		(property "LCSC" "C10400"
-			(at 409.575 176.149 0)
+			(at 412.115 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +13045,7 @@
 		(instances
 			(project ""
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "J16")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -16630,7 +16942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087f79de-100b-424d-8f81-74f96ece720d")
-		(property "Reference" "#NetPort026"
+		(property "Reference" "#NetPort027"
 			(at 443.23 85.725 0)
 			(effects
 				(font
@@ -16680,7 +16992,7 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "#NetPort026")
+					(reference "#NetPort027")
 					(unit 1)
 				)
 			)
@@ -16695,7 +17007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10f1fdaa-6984-45c6-857c-d443f938c304")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 405.384 33.782 0)
 			(effects
 				(font
@@ -16744,7 +17056,7 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16834,7 +17146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ba83f35-382a-4b12-a4ae-e3d92ac80626")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 401.574 34.925 0)
 			(effects
 				(font
@@ -16896,7 +17208,7 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16911,7 +17223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5abba058-db9a-4028-be35-d495ca3130d6")
-		(property "Reference" "J15"
+		(property "Reference" "J16"
 			(at 398.3482 40.4876 0)
 			(effects
 				(font
@@ -16971,7 +17283,7 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "J15")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -17043,6 +17355,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 404.114 164.592 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "739c2792-2ba4-4d16-a3d1-a5356958493a")
+		(property "Reference" "#PWR021"
+			(at 404.114 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 404.495 160.1978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 404.114 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 404.114 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 404.114 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "228ad0b1-5b0a-4f8f-a715-51edb83b5de0")
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Male")
 		(at 436.88 137.16 180)
 		(unit 1)
@@ -17051,7 +17427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e3f6d48-081e-4463-9f73-bbeb54e46c1e")
-		(property "Reference" "J18"
+		(property "Reference" "J19"
 			(at 435.61 129.286 0)
 			(effects
 				(font
@@ -17119,7 +17495,7 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "J18")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -17203,6 +17579,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 404.114 170.815 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cd6756d-909d-4e29-9429-a900c2a4faf6")
+		(property "Reference" "R10"
+			(at 400.304 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 399.034 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 402.336 170.815 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 404.114 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 404.114 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 404.114 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edad1c26-d581-4e29-b578-7bbdd340a350")
+		)
+		(pin "2"
+			(uuid "1cb5a46b-09eb-4f64-a4f9-5d1d6810396c")
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Male")
 		(at 438.15 71.12 180)
 		(unit 1)
@@ -17211,7 +17664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f7684ec-9ea3-42fa-86af-e7415bb35323")
-		(property "Reference" "J19"
+		(property "Reference" "J21"
 			(at 436.88 63.246 0)
 			(effects
 				(font
@@ -17279,7 +17732,232 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "J19")
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 441.96 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4e5c6d9-26bb-4299-b0c0-40417532eed0")
+		(property "Reference" "#NetPort026"
+			(at 441.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 441.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09f2e32a-e88f-458a-b2c1-df6f3d407d79")
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(reference "#NetPort026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:CP")
+		(at 441.96 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b583e9fc-7688-4a94-b14e-eb4826376abb")
+		(property "Reference" "C15"
+			(at 444.9572 212.1916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF 35V"
+			(at 444.9572 214.503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.7"
+			(at 442.9252 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 441.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C176688"
+			(at 441.96 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c49265c-2797-4684-9532-80f33e4d6f93")
+		)
+		(pin "1"
+			(uuid "71c8525c-f095-4010-bd3e-229c16c7de97")
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Male")
+		(at 436.88 205.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6287964-cbce-4708-afb2-0513fa34aeab")
+		(property "Reference" "J20"
+			(at 435.61 197.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Z Motor"
+			(at 432.054 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 436.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 436.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C10401"
+			(at 436.88 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa25e663-7c90-4160-bbfb-55bb0886588b")
+		)
+		(pin "1"
+			(uuid "2e556980-41c2-48e9-9e32-8118d2f9e4ca")
+		)
+		(pin "3"
+			(uuid "6196668b-ea5a-4037-913d-7a776e7a40ee")
+		)
+		(pin "4"
+			(uuid "403e2425-7143-4a46-86b0-0fb1a9c1fcfa")
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -17294,7 +17972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce0b6e55-a912-46dd-b6d3-8cc4ea1a0f9a")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 446.2272 77.5716 0)
 			(effects
 				(font
@@ -17356,7 +18034,82 @@
 		(instances
 			(project "ESP32_Plotter_Controller"
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
-					(reference "C15")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Male")
+		(at 394.335 179.705 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3b21e73-416b-4514-9323-5c496ab74ca2")
+		(property "Reference" "J15"
+			(at 397.0782 175.1076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Z Limit"
+			(at 397.0782 177.419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 394.335 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.335 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.335 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160332"
+			(at 394.335 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b993503a-6479-4127-b752-1ea761dbaa5b")
+		)
+		(pin "2"
+			(uuid "268f4b63-172d-45f7-a81e-cd36b1b41c88")
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -17435,6 +18188,188 @@
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
 					(reference "R9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 405.13 190.5)
+		(size 19.05 26.162)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "615e830e-5ae0-49b2-8888-0bdaa6d42e63")
+		(property "Sheetname" "TMC2130_EMBD_3"
+			(at 405.13 189.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tmc2130_embed.kicad_sch"
+			(at 405.13 217.2466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A1" output
+			(at 424.18 205.74 0)
+			(uuid "bf0406ef-836b-4faf-8a71-9fc4e400d68a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "A2" output
+			(at 424.18 208.28 0)
+			(uuid "a565d43e-ac08-4f08-a88e-a3f567e6f4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B1" output
+			(at 424.18 203.2 0)
+			(uuid "b26dc916-3902-4fd3-a280-8582ac2cb266")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B2" output
+			(at 424.18 200.66 0)
+			(uuid "4258bfcb-4ada-4465-bc02-67f63e3108e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 405.13 200.66 180)
+			(uuid "cccbc753-8c24-48ee-94a7-547429136c6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIAG0" input
+			(at 415.29 190.5 90)
+			(uuid "f9168820-6506-4601-9ccd-30474a8c235b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG1" input
+			(at 412.75 190.5 90)
+			(uuid "3253bbe1-fe18-41be-b603-8232e7342602")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 405.13 214.63 180)
+			(uuid "9d5fdb4c-1b0e-4b45-b37d-d5e22df89b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN" input
+			(at 405.13 193.04 180)
+			(uuid "eef8d6c6-f9de-421c-a71a-7fa02d58ec71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 405.13 203.2 180)
+			(uuid "c41231c1-6077-49a3-a7ff-3964b6a34a28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 405.13 195.58 180)
+			(uuid "ac434512-279b-41e0-8e63-e98d2858247c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 405.13 198.12 180)
+			(uuid "16d20db0-cedc-4efb-8340-57fee286c813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 405.13 212.09 180)
+			(uuid "453eb32d-f16d-490f-bef1-74789fa3057f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 424.18 193.04 0)
+			(uuid "059894fa-2f08-44b1-948f-18e88f2abe9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36"
+					(page "4")
 				)
 			)
 		)

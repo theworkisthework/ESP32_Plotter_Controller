@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d2d861f8-607d-43f9-aaa1-2329d0dbecf5")
+	(uuid "437f4510-96cc-4812-a61d-71194e4b1e7e")
 	(paper "A4")
 	(title_block
 		(title "Embedded TMC2130-LA (QFN-36)")
@@ -2354,7 +2354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05254963-73bd-4fac-a627-1b4f719ffc96")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 208.661 83.8778 0)
 			(effects
 				(font
@@ -2400,19 +2400,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4d3c46d-c8b5-4269-9857-38bb55b89724")
+			(uuid "6ff5a041-7d0a-429a-8091-ca245019d404")
 		)
 		(pin "2"
-			(uuid "e8f556ac-6c86-4bab-803c-2875a922da04")
+			(uuid "2435a499-f651-4182-bfdb-e07262da2eac")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C36")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -2474,16 +2478,20 @@
 			)
 		)
 		(pin "3"
-			(uuid "67f3681c-973c-4599-a758-99ef75cb12fc")
+			(uuid "a40ec46e-7d6f-4322-8f11-95a1ce56669d")
 		)
 		(pin "2"
-			(uuid "6750038b-eff7-4972-9daa-7a977ecb3c5d")
+			(uuid "5bf524c1-ba1b-4985-8d79-3a9a57a09597")
 		)
 		(pin "1"
-			(uuid "2001fa8e-bff5-4c58-847a-49920678aff3")
+			(uuid "e4cebeb0-71d8-4c85-a925-d5ba48224524")
 		)
 		(instances
-			(project ""
+			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "RV3")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
 					(reference "RV1")
 					(unit 1)
@@ -2505,7 +2513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097ded9d-e302-4d04-b90a-b4bd8d79de89")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -2550,16 +2558,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4588221-5b59-4244-a00c-4ae9abd58869")
+			(uuid "82361548-7c00-49bc-83f4-c53c11dfaad0")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR057")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ff0cc1e-6dbc-4610-b660-eadece1a191f")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 84.328 61.722 0)
 			(effects
 				(font
@@ -2620,19 +2632,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "ad11ddf5-0ec9-40d1-9b52-d0a8d7694baf")
+			(uuid "5e30cf56-bc4e-46bd-928d-cd4ee5e6987c")
 		)
 		(pin "1"
-			(uuid "dfe1f91a-46c5-4bd6-9418-dae7edb69005")
+			(uuid "52c41861-f577-410d-90b4-07bcd19cf182")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C31")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131661fe-06fb-4c66-b741-cb4a0ca66d0d")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 199.39 72.3095 90)
 			(effects
 				(font
@@ -2692,19 +2708,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "b8d70587-de17-42f6-b8d9-6672abc71fb2")
+			(uuid "b7965c61-b0ff-4e19-83bf-b832580d6644")
 		)
 		(pin "1"
-			(uuid "befc1b87-a1c3-42d2-900e-be7ce9effc3e")
+			(uuid "6d934a5a-fe81-4869-8a97-33600ab2ecb7")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "R23")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2720,7 +2740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b8d7fd6-c1d5-48c7-bf32-d9e3ad083ba6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 86.36 147.32 0)
 			(effects
 				(font
@@ -2765,16 +2785,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "78f0a8dd-e3e3-4c59-b536-dedbf935d57b")
+			(uuid "87ef77f4-5cf1-4b7a-8eaa-0a3d4079ac87")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2790,7 +2814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ed99150-8b93-4fc4-8849-727026453f5a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -2835,16 +2859,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f997c316-bb94-49da-af84-510c10672047")
+			(uuid "9d8c7a35-9d04-440c-8e5c-5dc6de7ece05")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2860,7 +2888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e841b6f-0749-4da9-bd58-b0c5677e471a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 205.74 97.79 0)
 			(effects
 				(font
@@ -2905,16 +2933,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "6545c329-6e7e-47f9-8eea-2d8374eff562")
+			(uuid "bfa6fae2-c61d-429e-afe7-1e1c7e694e60")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR058")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2930,7 +2962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee28675-9d13-455c-9c56-686cf83f9b20")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 107.95 147.32 0)
 			(effects
 				(font
@@ -2975,16 +3007,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "0903202f-85a8-477a-859c-ee25d51b730b")
+			(uuid "0553ea55-caaa-4f08-abcf-f79a0f980fd1")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR051")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3000,7 +3036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41825286-987c-4f3c-ad69-cb1ee4d689e1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 193.04 97.79 0)
 			(effects
 				(font
@@ -3045,16 +3081,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d531754-09fc-4275-bd77-f98c4a9caa47")
+			(uuid "f4a3b3b9-2a94-46c7-a21c-029d4e84928d")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR056")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3070,7 +3110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1910eb-8ccc-4f6f-8419-ce72b66cbcc6")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 175.768 114.3578 0)
 			(effects
 				(font
@@ -3116,19 +3156,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "1cc3e0d9-c8f1-415e-b805-e8f856b78ceb")
+			(uuid "3c3f301b-9a9b-4739-b534-39bc07effdf9")
 		)
 		(pin "1"
-			(uuid "8c613dfa-64d4-450d-a166-d183acd70040")
+			(uuid "d8b3768a-06bd-4d64-b560-0c891791bfc2")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "R22")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3144,7 +3188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5158ba69-4dff-49f4-ab05-f5503348b081")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 180.721 50.8578 0)
 			(effects
 				(font
@@ -3190,19 +3234,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "2380df39-c26f-48d7-a721-29859c5612f5")
+			(uuid "7629b6a9-2b11-475f-b606-4ffb943ca454")
 		)
 		(pin "1"
-			(uuid "abd0cb7d-a46c-4419-b4bf-6b557bf156aa")
+			(uuid "2b15541e-92f4-4bd8-af46-2a99a19926e7")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C32")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fcdc422-6924-4245-8d08-85f1e9d90e9f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 127 147.32 0)
 			(effects
 				(font
@@ -3263,16 +3311,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "423a4c3b-6c49-43e1-a841-4afe14eb8111")
+			(uuid "38abd42d-6571-4eb9-8e5e-1ebceccd3701")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR052")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78421131-d1f2-456f-87b5-dc250c6819e9")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 173.99 130.81 0)
 			(effects
 				(font
@@ -3333,16 +3385,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "99e2a2dc-882a-4337-a85b-1baf0babec55")
+			(uuid "6310e79c-4f51-4a57-ae37-2537057d98bb")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR054")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0cd1d3-b283-48dc-8d1b-5e466aca3475")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 165.608 114.3578 0)
 			(effects
 				(font
@@ -3404,19 +3460,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "5e4eb45b-c5e7-465f-ad39-59cb644341f7")
+			(uuid "dfe5e6c5-dabf-45dc-87de-28b5d0b478e8")
 		)
 		(pin "1"
-			(uuid "2bc4c0a2-9885-4501-a679-6c2fc5e38d21")
+			(uuid "0629a41b-e144-422f-8402-97695ed78d5f")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "R21")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8df5d433-2bf4-4d9c-b900-0a72ae161add")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 95.758 133.4078 0)
 			(effects
 				(font
@@ -3478,19 +3538,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "09c51457-ab8e-4179-b456-3776aa8d266c")
+			(uuid "49914b1d-5b9a-4484-bdf3-17fd40938165")
 		)
 		(pin "2"
-			(uuid "33e57425-088b-4994-8011-923fe0dddc48")
+			(uuid "61b56d42-2f0e-4c45-8925-8c4d5f53625a")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "R20")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3506,7 +3570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a934372b-0323-4eb4-b6df-10a0cee1ff87")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 213.36 68.58 0)
 			(effects
 				(font
@@ -3551,16 +3615,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b926d2d-49ce-4ed8-97dd-fde9fb705fe8")
+			(uuid "ab6b9c0c-eb5d-4815-9d4a-50b42c2f5be4")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR059")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44a3918-d770-47f2-8b24-0947f5fe0cc6")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 193.421 50.8578 0)
 			(effects
 				(font
@@ -3622,19 +3690,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "29fb30a6-03b4-4223-b328-8f69c426a3d1")
+			(uuid "5dd4653d-3853-4e30-aa37-cbbbe3b31ae1")
 		)
 		(pin "2"
-			(uuid "3c6a1f77-a098-42cc-937f-049fbaad7fed")
+			(uuid "dc273c9a-c2b9-4caa-8f49-fa1ee5d5cbb3")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C33")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -3650,7 +3722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b61b7445-5cf5-4b78-a3a2-8f41044e60ef")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -3695,16 +3767,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0429109-9ccd-47fc-b423-bbba9bedfc79")
+			(uuid "1b2702d2-ee6e-4356-b7c4-8a200d4893e2")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR048")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3720,7 +3796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5ef1fc-3ee7-4edf-a6fb-984c277e46ea")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 163.83 130.81 0)
 			(effects
 				(font
@@ -3765,16 +3841,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e2ba200-f48e-4564-8887-b1848f3a617d")
+			(uuid "7fd3157d-9dbd-4f6f-ac66-6fa7e6f217f1")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3836,118 +3916,122 @@
 			)
 		)
 		(pin "24"
-			(uuid "3d73ebd3-0a5e-4f19-89f2-987abccd94ff")
+			(uuid "a5d67a9f-ed6d-4b47-8a5e-2efe089f7877")
 		)
 		(pin "29"
-			(uuid "3da97a42-7a91-463d-8d18-f6ad86354359")
+			(uuid "0cb10974-bb03-4513-8eab-e6d5689d3870")
 		)
 		(pin "30"
-			(uuid "bc8b6cbe-c730-4680-a447-789a64a99fdf")
+			(uuid "dcc1a847-b442-44f4-b75f-35aabec16c31")
 		)
 		(pin "11"
-			(uuid "646e1c6c-7c47-46c2-afb4-c1fedb9795fc")
+			(uuid "ea12cd2e-32b2-4e81-912d-6c645f98c083")
 		)
 		(pin "20"
-			(uuid "c85140bf-8ae1-4896-ba60-9ce33a99bc77")
+			(uuid "dd77adb4-68c5-4f41-9dc1-fdddf96cccf0")
 		)
 		(pin "19"
-			(uuid "eb762fe4-b6e6-497e-8cdc-f1c5134a9743")
+			(uuid "d2751950-6357-410e-afaf-ff7fddc76245")
 		)
 		(pin "36"
-			(uuid "c325c9c1-abb4-4771-96dd-ef8620fbd9ef")
+			(uuid "ed105fa5-e015-4690-be2f-7dfcb829fb4c")
 		)
 		(pin "23"
-			(uuid "aa1d9f44-3447-408a-a58b-9773d3ec68b9")
+			(uuid "25446b36-7df9-4e15-a741-c2237feda32e")
 		)
 		(pin "21"
-			(uuid "fb7c2644-d8b4-46ee-94de-9e5155af5df8")
+			(uuid "af096860-456f-4e2c-a695-83aeb5162341")
 		)
 		(pin "18"
-			(uuid "31f2ae01-383d-4d41-8957-27d394bcb94f")
+			(uuid "cdbe8f7d-5410-48ef-9338-66b58f50bdaa")
 		)
 		(pin "33"
-			(uuid "23f53d70-2cfd-41a0-923d-9e5ec1b07226")
+			(uuid "497d8a80-79e4-40ba-a8f9-4c5d4197da4b")
 		)
 		(pin "35"
-			(uuid "ac6462aa-6dd2-4948-8cb0-26fe2e9c5bf9")
+			(uuid "be863d5e-5861-4a04-b52b-03cd044c9382")
 		)
 		(pin "12"
-			(uuid "6f4b35b5-684e-48d7-a993-63f714270d4f")
+			(uuid "90d13370-c505-40a8-93ab-2f4879a5c458")
 		)
 		(pin "31"
-			(uuid "293b0597-fc5c-4865-a732-b573802c5abb")
+			(uuid "73ec2d35-b77c-4d61-8e6c-f91fc532bdcc")
 		)
 		(pin "6"
-			(uuid "434a9a9d-7951-43b4-9149-2b027057a314")
+			(uuid "ddb9b8b7-7bd7-466a-be5b-f049cc8f72e1")
 		)
 		(pin "37"
-			(uuid "ef0b4919-bfa9-46b7-b84d-0e37ec9b9cf3")
+			(uuid "6152e845-266f-410e-9a00-b786d92efe7c")
 		)
 		(pin "34"
-			(uuid "fc7281dc-f1be-4756-8405-a38538a6231f")
+			(uuid "1cf072f6-960d-4d4c-8c26-75d0a62f5b36")
 		)
 		(pin "28"
-			(uuid "f2a44501-acae-44af-86db-1d6d96617ae4")
+			(uuid "fb976bf7-8eb5-4fb0-bd67-f0254f9bdc1e")
 		)
 		(pin "13"
-			(uuid "fe110b16-7533-4ef3-8e16-db6de190cf6a")
+			(uuid "70a1f217-e6d3-4c65-bfca-49dee81272ef")
 		)
 		(pin "1"
-			(uuid "69616955-7f69-4214-8a63-55a3f7fa7308")
+			(uuid "f578df66-5d4a-41aa-a95b-8cdc71c0a061")
 		)
 		(pin "32"
-			(uuid "8a0c8ae0-b051-43f6-9cff-f4a58df45b7d")
+			(uuid "46a87c8a-81c5-472c-98c9-4f3bb4a5be00")
 		)
 		(pin "14"
-			(uuid "9685f88b-4e9a-4eda-a40a-1ae6b77b58ef")
+			(uuid "1d0d7afa-5cc6-401e-a73c-3e40d644ffa2")
 		)
 		(pin "3"
-			(uuid "415fcc84-3137-4da6-b841-d0ac322ae8d7")
+			(uuid "076c3404-93cf-4a17-91ff-643d9c8f1fbc")
 		)
 		(pin "27"
-			(uuid "0e7c24e0-d8cd-45d5-aaf8-c1777a8a51d3")
+			(uuid "c19e5c1c-ce7e-43e5-883f-3c2239c7a16b")
 		)
 		(pin "2"
-			(uuid "12cbaad8-1316-41ef-8366-4d26109f6b58")
+			(uuid "4d6dd9e6-f403-4efb-8612-a1adee085836")
 		)
 		(pin "10"
-			(uuid "fea01b9a-9d17-43ac-9a88-811d686af31c")
+			(uuid "0700b2b0-981b-4d5b-a53d-a021e08413f9")
 		)
 		(pin "8"
-			(uuid "c7900a26-8257-45f8-a4b7-a247f04e863b")
+			(uuid "2ed9c5d3-8047-41e2-a8e5-42861cf37fae")
 		)
 		(pin "5"
-			(uuid "b710c1b4-b60b-4ed3-b7b1-1588358d1439")
+			(uuid "2d29fd89-44ae-4503-837d-f1ea1e74234e")
 		)
 		(pin "16"
-			(uuid "8df03819-df67-4bc4-8505-29fb67b6240c")
+			(uuid "5a359e1b-82f9-4dbc-a75a-a2d58d9dbcca")
 		)
 		(pin "17"
-			(uuid "ec22cb41-e9e4-4a0e-ac8e-1ad3287cab4b")
+			(uuid "a557703c-a07a-4818-b6e8-efd91ec5f43e")
 		)
 		(pin "22"
-			(uuid "e3c39065-a11a-4a5b-bc23-d9e369d9af73")
+			(uuid "3d472915-c2c4-4d22-a4c4-17787a9ac6d3")
 		)
 		(pin "9"
-			(uuid "4ab2fbab-a119-4f11-8366-d7d347e23ffe")
+			(uuid "b35387d5-6281-4bab-94b7-c290e1a955de")
 		)
 		(pin "4"
-			(uuid "fdb57d28-f111-42bd-adbf-731bd7889325")
+			(uuid "db02b9aa-8964-4bf6-a761-5e515d9dacb8")
 		)
 		(pin "7"
-			(uuid "bd8d2150-6a18-4c49-a0e2-7b325e436be8")
+			(uuid "6457bd58-087a-4ec1-a0c8-45803e1cc5f4")
 		)
 		(pin "15"
-			(uuid "369446e3-6fd5-4683-acbb-1b0bbf4d5c4a")
+			(uuid "3b9300fc-5b9d-41be-99d5-4fe80fc18cd5")
 		)
 		(pin "26"
-			(uuid "c7f48135-0af0-4d51-8efd-b0915a90b710")
+			(uuid "998673ae-a086-44a7-a47c-9946d571695f")
 		)
 		(pin "25"
-			(uuid "5df66cc1-4122-4134-af45-c7c3f767b159")
+			(uuid "2f33fc52-f383-4c94-8fc0-ae7cdad35adc")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "U7")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
 					(reference "U5")
 					(unit 1)
@@ -3969,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc14eca4-6b17-40cb-bb55-dcc10f46e5cb")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 216.281 50.8578 0)
 			(effects
 				(font
@@ -4015,19 +4099,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "5c27aa41-2dce-4427-abaf-57f854d075d3")
+			(uuid "faeceb54-6b5a-451e-9282-69a4785f5bc9")
 		)
 		(pin "1"
-			(uuid "29ae5931-45f8-46e3-b214-0c84b3aad2d7")
+			(uuid "1c88024a-ef92-4b35-b394-084f013cdaf4")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C37")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4043,7 +4131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfdbee5d-d9dd-4824-b2c3-d78f24f9f768")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -4088,16 +4176,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3fe6c11-3df2-46a9-bcaf-19bbcd8c3dc0")
+			(uuid "1b64ad3c-8413-456e-89a8-abd67ff686eb")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "#PWR055")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee5d7848-f62a-48d2-b8c7-cf59530ae490")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 195.961 83.8778 0)
 			(effects
 				(font
@@ -4159,19 +4251,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "62192e3f-64b5-479e-8def-880d8fafacb3")
+			(uuid "e6c1333b-a9db-42f7-8e8f-06baae4f0015")
 		)
 		(pin "2"
-			(uuid "1060d7ed-caf4-4077-92c2-e3591a3ea70d")
+			(uuid "2c0e0a0d-584a-459a-9f2a-f20e945447b6")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C34")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4187,7 +4283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1246a65-b06f-4335-bf5e-dc5260ee9ceb")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 204.851 50.8578 0)
 			(effects
 				(font
@@ -4233,19 +4329,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "66a373a2-c0c8-479a-bd27-57b26cea4f4b")
+			(uuid "9cf3bcb6-69f3-4ceb-9166-2f442dffe9f0")
 		)
 		(pin "1"
-			(uuid "a860a174-1409-4243-8940-7be5b794b485")
+			(uuid "fa3f5d72-fe3a-4bd7-b105-297beb11836c")
 		)
 		(instances
 			(project "ESP32_Plotter_Controller"
+				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/615e830e-5ae0-49b2-8888-0bdaa6d42e63"
+					(reference "C35")
+					(unit 1)
+				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/bebd3599-d7cd-4b3c-8076-6948c4c6a0d4"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 				(path "/21fd09c0-0214-46d6-94ad-66451bc8ca36/da9a3602-b942-4577-a53e-dcb6d59dfefc"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)

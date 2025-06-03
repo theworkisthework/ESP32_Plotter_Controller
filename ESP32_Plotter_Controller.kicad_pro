@@ -479,6 +479,10 @@
     [
       "da9a3602-b942-4577-a53e-dcb6d59dfefc",
       "TMC2130_EMBD_2"
+    ],
+    [
+      "615e830e-5ae0-49b2-8888-0bdaa6d42e63",
+      "TMC2130_EMBD_3"
     ]
   ],
   "text_variables": {}
