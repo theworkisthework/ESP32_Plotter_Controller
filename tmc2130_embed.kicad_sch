@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "2044a434-7cdb-4ed6-bfad-50a7f01ed980")
+	(uuid "12782524-087b-4185-b940-6cae3e7da214")
 	(paper "A4")
 	(title_block
 		(title "Embedded TMC2130-LA (QFN-36)")
